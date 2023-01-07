@@ -49,8 +49,7 @@
     border-radius: 5px;
     text-align: right;
     padding: 10px 25px;
-
-
+    color: #FFFFFF;
 }
 
 /* about style */
@@ -91,7 +90,8 @@
     text-align: center;
 
 }
-.my-plan-title{
+
+.my-plan-title {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -115,17 +115,47 @@
     font-size: 25px;
     color: #737272;
 }
+
 /* graphical-view style */
-.graphical-view{
-   margin: 100px 200px;
-}
-.graphical-view img{
+.graphical-view {
    
+    background-image: url(../images/watch.png);
+    margin: 100px 200px;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
     border-radius: 8px;
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    position: relative;
+   
+    
+   
+
 }
+.graphical-view button{
+    background: white;
+    color: #FD6E0A; 
+   
+}
+
+.text-view {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    opacity: 4;
+    position: absolute;
+    width: 60%;
+    height: 75%;
+    
+}
+.text-view-title{
+   padding-top:50px;
+   padding-left: 20px;
+}
+
 /* footer part */
-.footer{
+.footer {
     display: flex;
     gap: 100px;
     max-width: 1600px;
@@ -134,35 +164,42 @@
     color: white;
     padding: 150px 200px;
 }
-.footer-title{
+
+.footer-title {
     font-weight: 700;
-    
+
     font-size: 45px;
 }
-.footer-description{
+
+.footer-description {
     font-weight: 400;
-     font-size: 16px;
-     text-align: left;
+    font-size: 16px;
+    text-align: left;
 }
-.footer-description a{
-    
+
+.footer-description a {
+
     text-decoration: none;
 }
-.footer-description img{
+
+.footer-description img {
     margin-top: 20px;
 }
-.footer-subscribe{
+
+.footer-subscribe {
     font-weight: 600;
     font-size: 25px;
 }
-.footer input{
+
+.footer input {
     margin-top: 10px;
     border: 0;
     width: 100%;
-    padding:18px 30px;
+    padding: 18px 30px;
     border-radius: 5px;
 }
-.footer button{
+
+.footer button {
     background: white;
-    color:  #FD6E0A;
+    color: #FD6E0A;
 }
