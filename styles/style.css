@@ -124,3 +124,45 @@
     border-radius: 8px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
 }
+/* footer part */
+.footer{
+    display: flex;
+    gap: 100px;
+    max-width: 1600px;
+    height: 400px;
+    background: #151414;
+    color: white;
+    padding: 150px 200px;
+}
+.footer-title{
+    font-weight: 700;
+    
+    font-size: 45px;
+}
+.footer-description{
+    font-weight: 400;
+     font-size: 16px;
+     text-align: left;
+}
+.footer-description a{
+    
+    text-decoration: none;
+}
+.footer-description img{
+    margin-top: 20px;
+}
+.footer-subscribe{
+    font-weight: 600;
+    font-size: 25px;
+}
+.footer input{
+    margin-top: 10px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+    border-radius: 5px;
+}
+.footer button{
+    background: white;
+    color:  #FD6E0A;
+}
